@@ -23,6 +23,7 @@ public class NettyClientApplication
         	client.setPackageClass(PackageDef.class);
 			client.init("localhost:8070");
 			
+			
 			PackageDef pkg = new PackageDef();
 			pkg.setUuid(1).setReqTimestamp(100).setVersion("v1.0").setBody(new JSONObject().put("id", 1).put("name", "Martin").toString());
 			
