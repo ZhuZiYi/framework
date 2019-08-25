@@ -17,5 +17,5 @@ public class PackageDef implements Serializable {
 	private int rspTimestamp;
 	private String version;
 	private int type;
-	private String  body;
+	private String  body;//存josn字符串
 }
